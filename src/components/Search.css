@@ -1,0 +1,31 @@
+.conatiner-seacrh{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+    height: 300px;
+}
+.search{
+    width: 100%;
+    border: none;
+}
+.search-dark{
+    width: 100%;
+    border: none;
+    background-color: black;
+    color:aliceblue;
+}
+.search:focus{
+    outline: none;
+}
+.search-dark:focus{
+    outline: none;
+}
+.form-search{
+    border: 2px solid  rgb(68, 75, 168);
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    padding: 13px 20px 13px 13px;
+    border-radius: 25px;
+}

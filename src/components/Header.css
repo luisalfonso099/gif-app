@@ -1,0 +1,18 @@
+.header-container{
+    display: flex;
+    justify-content: space-around;
+    padding: auto 100px;
+    width: 800px;
+    border-top: 5px solid rgb(129, 60, 175);
+    padding-top: 20px;
+    border-radius: 8px;
+}
+
+.btn-theme{
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 20px;
+    padding: 10px;
+    border: 3px solid rgb(129, 60, 175);
+    color: rgb(129, 60, 175);
+}

@@ -1,0 +1,25 @@
+.container-autocomplet{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-radius: 7px;
+    width: 500px;
+    background-color: rgb(97, 20, 160);
+    z-index: 2;
+}
+.cont-btn{
+    display: flex;
+    justify-content: flex-end;
+}
+.container-autocomplet button{
+    border: none;
+    border-bottom: 1px solid gray;
+    background-color: transparent;
+    width: 100%;
+    font-size: larger;
+    padding: 15px;
+    color: white;
+}
+.container-autocomplet button:hover{
+    background-color: rgb(128, 134, 209);
+}
